@@ -4,10 +4,10 @@
 
 <aside>
 <<<<<<< HEAD
-    <strong>Base URL</strong>: <code>http://localhost</code>
-=======
     <strong>Base URL</strong>: <code>http://learnhub.test</code>
->>>>>>> edbc298 (composer dependencies for L11)
+=======
+    <strong>Base URL</strong>: <code>http://localhost</code>
+>>>>>>> main
 </aside>
 
 This documentation aims to provide all the information you need to work with our API.

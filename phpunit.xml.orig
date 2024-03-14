@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
          bootstrap="vendor/autoload.php"
          colors="true"
 >
+=======
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd" bootstrap="vendor/autoload.php" colors="true">
+>>>>>>> main
     <testsuites>
         <testsuite name="Unit">
             <directory>tests/Unit</directory>
@@ -11,7 +15,11 @@
         <testsuite name="Feature">
             <directory>tests/Feature</directory>
         </testsuite>
+<<<<<<< HEAD
+    </testsuites>
+=======
     <testsuite name="Modules"><directory suffix="Test.php">./app/*/tests</directory></testsuite></testsuites>
+>>>>>>> main
     <source>
         <include>
             <directory>app</directory>
@@ -28,4 +36,8 @@
         <env name="SESSION_DRIVER" value="array"/>
         <env name="TELESCOPE_ENABLED" value="false"/>
     </php>
+<<<<<<< HEAD
+</phpunit>
+=======
 <formatOutput>1</formatOutput></phpunit>
+>>>>>>> main

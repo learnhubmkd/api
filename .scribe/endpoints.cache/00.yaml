@@ -6,6 +6,7 @@ endpoints:
   -
     httpMethods:
       - GET
+<<<<<<< HEAD
     uri: api/website/blog-posts
     metadata:
       groupName: Endpoints
@@ -106,6 +107,8 @@ endpoints:
   -
     httpMethods:
       - GET
+=======
+>>>>>>> edbc298 (composer dependencies for L11)
     uri: api/healthcheck
     metadata:
       groupName: Endpoints
