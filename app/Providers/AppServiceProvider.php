@@ -6,7 +6,6 @@ use Illuminate\Support\ServiceProvider;
 use Laravel\Sanctum\PersonalAccessToken;
 use Laravel\Sanctum\Sanctum;
 
-
 class AppServiceProvider extends ServiceProvider
 {
     /**
