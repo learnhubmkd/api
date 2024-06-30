@@ -1,12 +1,14 @@
-name: PHP Unit tests
+name: PHPUnit tests
 
 on:
   pull_request:
     branches:
       - main
+      - staging
   push:
     branches:
       - main
+      - staging
 
 jobs:
   phpunit:
